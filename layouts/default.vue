@@ -3,7 +3,7 @@
     <v-app-bar class="white" flat app clipped-left>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="font-weight-bold">
-    <img src="https://c.tenor.com/x8v1oNUOmg4AAAAC/rickroll-roll.gif" alt="juutub" width="50px"> 
+    <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" alt="yt" width="50px"> 
         </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-text-field flat hide-details append-icon="mdi-magnify" placeholder="Search" outlined dense class="hidden-sm-and-down"></v-text-field>
@@ -113,7 +113,7 @@ export default {
           {
             title: 'Browse channels',
             
-            icon: 'mdi-plus-circle'
+            icon: 'mdi-plus-circle-outline'
           },
         ]
       },
@@ -122,12 +122,20 @@ export default {
         pages: [
           {
             title: 'Rickroll upgrade',
-            icon: 'mdi-arm-flex'
+            icon: 'mdi-arm-flex-outline'
+          },
+          {
+            title: 'Gaming',
+            icon: 'mdi-gamepad-variant-outline'
           },
           {
             icon: 'mdi-access-point',
             title: 'Live'
-          }
+          },
+          {
+            title: 'Sports',
+            icon: 'mdi-trophy-outline'
+          },
         ]
       },
 
@@ -136,15 +144,36 @@ export default {
         pages: [
           {
             title: 'Setting',
-            icon: 'mdi-cog'
+            icon: 'mdi-cog-outline'
+          },
+          {
+            title: 'Report history',
+            icon: 'mdi-flag-outline'
           },
           {
             title: 'Help',
-            icon: 'mdi-help-circle'
+            icon: 'mdi-help-circle-outline'
+          },
+          {
+            title: 'Send Feedback',
+            icon: 'mdi-message-alert-outline'
           },
         ]
         
       }
+    ],
+    links: [
+      { text: 'About' },
+      { text: 'Press'},
+      { text: 'Copyrignt' },
+      { text: 'Contact us' },
+      { text: 'Creators' },
+      { text: 'Advertise' },
+      { text: 'Developers' },
+      { text: 'Terms' },
+      { text: 'Privacy'},
+      { text: 'Policy & Safety'},
+      { text: 'Test new features' } 
     ],
 header: null,
   }),
